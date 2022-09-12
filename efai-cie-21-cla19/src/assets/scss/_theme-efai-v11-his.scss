@@ -1,0 +1,21 @@
+$--color-one: #7D4B52;
+$--color-two: #F05D7E;
+$--color-three: #692721;
+$--color-four: #4D5F9F; 
+
+h1 {
+    color: $--color-one;
+}
+
+button.on-off {
+    border-color: $--color-one;
+    background: $--color-one;
+}
+
+.copyright {
+    background: $--color-one;
+}
+
+.header__animals {
+    background-image: url(../image/animals-header-crab.svg);
+}
