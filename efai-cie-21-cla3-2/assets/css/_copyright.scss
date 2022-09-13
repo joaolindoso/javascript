@@ -1,0 +1,41 @@
+button.on-off {
+    /* background: $--color-one;
+    border: solid $--color-one; */
+    border-style: solid;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    bottom: 0;
+    color: $--color-white;
+    cursor: pointer;
+    font-size: x-large;
+    padding: .2rem 2rem .2rem 1rem;
+    position: fixed;
+    right: -1%;
+    z-index: 2;
+}
+
+.copyright {
+    /* background: $--color-one; */
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    bottom: 3rem;
+    color: $--color-white;
+    max-height: 80%;
+    max-width: 20rem /* 320px */;
+    overflow: auto;
+    padding: 1rem;
+    position: fixed;
+    right: -160%;
+    text-transform: none;
+    transition: right 1s;
+    z-index: 1;
+}
+
+.open {
+    right: 0;
+}
+
+.copyright ul {
+    list-style: none;
+    margin: 0 1rem;
+}

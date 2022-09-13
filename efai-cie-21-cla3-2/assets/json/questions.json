@@ -1,0 +1,165 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "cadeira.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A033_QUESTAO_PERNAS.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "MADEIRA",
+      "incorrect_answers": ["METAL"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A035_PERNA.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A036_PESCOCO.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "regador.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A039_QUESTAO_CABECA.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "PLÁSTICO",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A042_CABECA.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A035_PERNA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "caixa-papelao.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A043_QUESTAO_COTOVELO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "PAPEL",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A045_COTOVELO.mp3",
+      "incorrect_answers_sound": [ "OED_EF11_CIE_2021_A034_BRACO.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "fantoches.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A047_QUESTAO_MAOS.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "TECIDO",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A041_MAO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A042_CABECA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "colher.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "METAL",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "jarra.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "VIDRO",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "pente.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "PLÁSTICO",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "cortinas.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "TECIDO",
+      "incorrect_answers": ["METAL"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "lampada.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "VIDRO",
+      "incorrect_answers": ["METAL"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    },
+    {
+      "category": "CIÊNCIAS",
+      "type": "multiple",
+      "difficulty": "easy", 
+      "image": "sacola.jpg",
+      "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
+      "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
+      "correct_answer": "TECIDO",
+      "incorrect_answers": ["MADEIRA"],
+      "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
+      "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
+      "correct_feedback": "RESPOSTA CORRETA!",
+      "incorrect_feedback": [
+        "RESPOSTA INCORRETA"
+      ]
+    }
+  ]
+}
