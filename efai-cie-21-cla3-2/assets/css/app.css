@@ -225,10 +225,12 @@ input::placeholder {
 .choice-container {
     display: flex;
     margin-bottom: 2rem;
-    width: 100%;
+    width: 80%;
     background-color: #ffffff;
     border-radius: 30px;
     cursor: pointer;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 
 /* .choice-container:hover {
@@ -253,6 +255,7 @@ input::placeholder {
     width: 100%;
     display: table-caption;
     align-self: center;
+    font-size: 1.2rem;
 }
 
 .correct {
@@ -339,7 +342,7 @@ h2#question {
 }
 
 .image-question img {
-    width: 100%;
+    width: 80%;
     max-width: 640px;
     border-radius: 16px;
     border: 2px solid #dfdfdf;
