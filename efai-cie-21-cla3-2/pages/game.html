@@ -50,95 +50,10 @@
     </div>
   </div>
   <script src="../assets/js/game.js"></script>
+  <script src="../assets/js/DragDropTouch.js"></script>
+  <script src="../assets/js/sweetalert2.all.min.js"></script>
   <script src="../assets/js/jquery-1.12.4.min.js"></script>
-
-  <script>
-    $(".sound-text").click(function() {
-
-      let $this = $(this),
-          audio = $this.find('audio')[0],
-          playNumber = $this.data();
-
-      // Procura o que tá tocando e o para.
-      $(".sound-text").each(function() {
-        let tocando = $(this).find('.btnplayaudio.active');
-        // Verifico se tá tocando e se não é o mesmo player
-        if(tocando.length == 1 && playNumber != $(this).data()) {
-          $(this).find('audio')[0].currentTime = 0;
-          $(this).find('audio')[0].pause();
-          $(this).children('.btnplayaudio').text('PLAY').removeClass('active');
-        }
-      });
-
-      // Verifica se tá pausado ou ainda não iniciou, caso positivo, aplica o play.
-      if(audio.paused) {
-        $(this).children('.btnplayaudio').text('PAUSE').addClass('active');
-        audio.play();
-      } else {
-        audio.pause();
-        $(this).children('.btnplayaudio').text('PLAY').removeClass('active');
-      }
-
-      audio.addEventListener('ended', function() {
-        $this.children('.btnplayaudio').text('PLAY').removeClass('active');
-      }, false);
-
-    });
-
-</script>
-
-  <script>
-
-      // let idUltima = -1; //começa com -1 que indica que não tem nenhuma a tocar
-      // isPlaying = false;
-      // var currentPromise=false;
-
-      // $(".sound-text").click(function() {
-
-      //     var $this = $(this);
-
-      //     // iniciando audio
-      //     var audioID = "answeraudio" + $(this).attr('data-number2');
-
-      //     audioID.currentTime = 0;
-      //     console.log("meu audio é: "+audioID);
-
-      //     $(this).children('.btnplayaudio').toggleClass('active');
-          
-      //     if($(this).children('.btnplayaudio').hasClass('active')) {
-
-      //       $(this).children('.btnplayaudio').text('PAUSE');
-      //         $("#" + audioID).trigger('load');
-      //         $("#" + audioID).trigger('play');
-
-      //         if (idUltima != -1) { //se vai tocar mas ainda há outra a tocar
-      //             PlayerParar(idUltima); //agora para a ultima que ainda estava a tocar
-      //         }
-
-      //         idUltima = audioID; //marca esta como a ultima musica a tocar
-      //         console.log(audioID);
-
-      //         // testando se ocorreu fim do audio
-      //         $("#" + audioID).on('ended', function() {
-      //             $('.btnplayaudio').text('PLAY');
-      //             $('.btnplayaudio').removeClass('active');
-      //             $("#" + audioID).trigger('load');
-      //         });
-
-      //     } else {
-      //       $(this).children('.btnplayaudio').text('PLAY');
-      //       $("#" + audioID).trigger('pause');
-      //       isPlaying = false;
-      //     }
-
-      //     function PlayerParar(audioID){
-      //       $("#" + audioID).trigger('pause');
-      //       idUltima = -1; //limpa a ultima musica a tocar
-      //     }
-
-      // });
-
-  </script>
+  <script src="../assets/js/soundscontrol.js"></script>
 
 </body>
 </html>
