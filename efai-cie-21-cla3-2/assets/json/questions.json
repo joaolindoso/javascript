@@ -9,11 +9,14 @@
       "sound_question": "OED_EF11_CIE_2021_A033_QUESTAO_PERNAS.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "MADEIRA",
-      "incorrect_answers": ["METAL"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A035_PERNA.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A036_PESCOCO.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>CADEIRAS SÃO FEITAS COM MATERIAIS RESISTENTES, COMO A MADEIRA, PARA QUE AS PESSOAS POSSAM SE SENTAR COM SEGURANÇA. ",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -25,11 +28,14 @@
       "sound_question": "OED_EF11_CIE_2021_A039_QUESTAO_CABECA.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "PLÁSTICO",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A042_CABECA.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A035_PERNA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>ESSE REGADOR DE PLANTAS É FEITO DE PLÁSTICO. LEMBRE-SE QUE O PLÁSTICO É UM MATERIAL RESISTENTE E LEVE.",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -41,11 +47,14 @@
       "sound_question": "OED_EF11_CIE_2021_A043_QUESTAO_COTOVELO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "PAPEL",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A045_COTOVELO.mp3",
       "incorrect_answers_sound": [ "OED_EF11_CIE_2021_A034_BRACO.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>CAIXAS DE PIZZA SÃO FEITAS DE PAPELÃO, UM MATERIAL LEVE E MALEÁVEL.",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -57,11 +66,14 @@
       "sound_question": "OED_EF11_CIE_2021_A047_QUESTAO_MAOS.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "TECIDO",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A041_MAO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A042_CABECA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>OS FANTOCHES SÃO FEITOS DE TECIDO. O TECIDO É UM MATERIAL MALEÁVEL E PODE SER MACIO. ",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -73,11 +85,14 @@
       "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "METAL",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>ESSA COLHER É FEITA DE METAL, QUE É UM MATERIAL DURO E BASTANTE RESISTENTE. ",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -89,11 +104,14 @@
       "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "VIDRO",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>VIDRO É UM TIPO DE MATERIAL USADO PARA PRODUZIR DIVERSOS PRODUTOS, COMO A JARRA DA FOTO. O VIDRO É TRANSPARENTE E DURO.",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -105,11 +123,14 @@
       "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "PLÁSTICO",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>ESTE PENTE É FEITO DE PLÁSTICO, QUE É UM MATERIAL LEVE, RESISTENTE E FLEXÍVEL.",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -121,11 +142,14 @@
       "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "TECIDO",
-      "incorrect_answers": ["METAL"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>A CORTINA MOSTRADA NA IMAGEM É FEITA DE TECIDO, UM MATERIAL MALEÁVEL E MACIO.",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -137,11 +161,14 @@
       "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "VIDRO",
-      "incorrect_answers": ["METAL"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>A LÂMPADA MOSTRADA NA FOTO É FEITA DE VIDRO. ESSE MATERIAL  É DURO E TRANSPARENTE E, NESSE CASO, POSSIBILITA QUE A LUZ ILUMINE O AMBIENTE. ",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     },
@@ -153,11 +180,14 @@
       "sound_question": "OED_EF11_CIE_2021_A051_QUESTAO_OMBRO.mp3",
       "question": "ANALISE COM ATENÇÃO AS IMAGENS E, QUANDO SOUBER A RESPOSTA, TOQUE NA OPÇÃO DO MATERIAL PARA SABER SE ACERTOU. VAMOS LÁ?",
       "correct_answer": "TECIDO",
-      "incorrect_answers": ["MADEIRA"],
+      "incorrect_answers": ["METAL", "PLÁSTICO", "TECIDO", "PAPEL"],
       "correct_answer_sound": "OED_EF11_CIE_2021_A053_OMBRO.mp3",
       "incorrect_answers_sound": ["OED_EF11_CIE_2021_A049_ORELHA.mp3"],
-      "correct_feedback": "RESPOSTA CORRETA!",
+      "correct_feedback": "<B>RESPOSTA CORRETA!</B><BR>O TECIDO USADO NA PRODUÇÃO DESSA BOLSA É UM MATERIAL RESISTENTE E MALEÁVEL. ",
       "incorrect_feedback": [
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
+        "RESPOSTA INCORRETA",
         "RESPOSTA INCORRETA"
       ]
     }
