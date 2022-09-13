@@ -162,6 +162,8 @@ body {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .audiotextoenunciado img {
@@ -257,6 +259,7 @@ input::placeholder {
 #hud {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .hud-prefix {
