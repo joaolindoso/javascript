@@ -225,7 +225,7 @@ input::placeholder {
 .choice-container {
     display: flex;
     margin-bottom: 2rem;
-    width: 80%;
+    width: 50%;
     background-color: #ffffff;
     border-radius: 30px;
     cursor: pointer;
@@ -454,6 +454,10 @@ h2#question {
     }
 
     img.imagemdeabertura {
+        width: 100%;
+    }
+
+    .choice-container {
         width: 100%;
     }
 }

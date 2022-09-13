@@ -37,7 +37,7 @@ fetch("./../assets/json/questions.json")
       const answerChoicesSounds = [...loadedQuestion.incorrect_answers_sound];
       const answerChoicesFeedBack = [...loadedQuestion.incorrect_feedback];
 
-      formattedQuestion.answer = Math.floor(Math.random() * 9) + 1;
+      formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
 
       answerChoices.splice(
         formattedQuestion.answer - 1,
