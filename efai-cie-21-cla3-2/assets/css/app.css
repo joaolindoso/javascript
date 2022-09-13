@@ -342,7 +342,7 @@ h2#question {
 }
 
 .image-question img {
-    width: 80%;
+    width: 360px;
     max-width: 640px;
     border-radius: 16px;
     border: 2px solid #dfdfdf;
