@@ -31,7 +31,7 @@ fetch("./../assets/json/questions.json")
         category: loadedQuestion.category,
         image: loadedQuestion.image,
         questionsound: loadedQuestion.sound_question
-      };
+      }; 
 
       const answerChoices = [...loadedQuestion.incorrect_answers];
       const answerChoicesSounds = [...loadedQuestion.incorrect_answers_sound];
