@@ -234,18 +234,14 @@ button.on-off {
     width: 100%;
 }
 .bgimg-1 {
-    background-image: url(../image/game/acerteocentro.jpg);
+    background-image: url(../image/game/acrobacia-de-solo.jpg);
 }
 .bgimg-2 {
-    background-image: url(../image/game/acerteocentro2.jpg);
+    background-image: url(../image/game/acrobacia-com-aparelho-lira.jpg);
     /* background-position: 100% !important; */
 }
 .bgimg-3 {
-    background-image: url(../image/game/lancarbambole.jpg);
-}
-.bgimg-4 {
-    background-image: url(../image/game/boliche-crianca-shutter-1524427790.jpg);
-    background-position: 75% !important;
+    background-image: url(../image/game/acrobacia-aerea-com-tecido.jpg);
 }
 
 .caption {
