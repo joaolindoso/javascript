@@ -1,0 +1,25 @@
+$--color-one: #5CB343;
+$--color-two: #F6914C;
+$--color-three: #438E34;
+$--color-four: #F172AC; 
+
+h1 {
+    color: $--color-one;
+}
+
+button.on-off {
+    border-color: $--color-one;
+    background: $--color-one;
+}
+
+.copyright {
+    background: $--color-one;
+}
+
+.header__animals {
+    background-image: url(../image/animals-header-flog.svg);
+}
+
+.citacao, .atributos {
+    background: $--color-one;
+}

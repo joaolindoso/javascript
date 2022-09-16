@@ -1,0 +1,25 @@
+$--color-one: #069EDB;
+$--color-two: #F26922;
+$--color-three: #1968B3;
+$--color-four: #FAA61A; 
+
+h1 {
+    color: $--color-one;
+}
+
+button.on-off {
+    border-color: $--color-one;
+    background: $--color-one;
+}
+
+.copyright {
+    background: $--color-one;
+}
+
+.header__animals {
+    background-image: url(../image/animals-header-monkey.svg);
+}
+
+.citacao, .atributos {
+    background: $--color-one;
+}

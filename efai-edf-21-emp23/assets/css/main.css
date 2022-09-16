@@ -54,12 +54,7 @@ header figure {
 header h1 {
     margin-left: 1rem;
 }
-main p {
-    background: #f1f1f1;
-    border-radius: 10px;
-    margin: 1rem auto;
-    padding: 20px;
-}
+
 main p,
 video {
     max-width: 45rem;
@@ -72,6 +67,18 @@ video {
     margin: auto;
     position: relative;
 }
+
+.main__box {
+    background: #fff !important;
+    border-radius: 30px;
+    margin: 1rem auto;
+    padding: 50px;
+    border: 2px solid #f5874d !important;
+    width: 100%;
+    max-width: 720px;
+    position: relative;
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -253,7 +260,7 @@ button.on-off {
     display: flex;
 }
 h1 {
-    font-size: clamp(3em, 2em + 1vw, 1em);
+    font-size: 2rem;
 }
 header {
     height: 10rem;
@@ -403,6 +410,12 @@ h1 {
         margin-left: 70%;
         margin-top: -350px;
         width: 200px;
+    }
+    h1 {
+        font-size: 1.2rem !important;
+    }
+    .bgimg-1 {
+        background-position: 30% center !important;
     }
 }
 @media (max-width: 320px) {

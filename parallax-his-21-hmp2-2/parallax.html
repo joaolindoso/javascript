@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO O TEMPO DO MUNDO</title>
+    <link rel="icon" type="image/x-icon" href="./assets/image/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+<style>
+
+* {margin:0; padding:0;}
+li {list-style: none;}
+a {text-decoration: none;}
+
+.top {position:fixed; left:10px; top:10px; background:rgba(0,0,0,0.5); z-index:99999; padding:20px; color:#fff;}
+
+.character {
+	width:75px; height: 75px;
+	background-image: url(./assets/image/game/seq-crianca.png);
+	position: fixed; left: 50%; margin-left: -78px; bottom:0; z-index:10; 
+}
+
+.character.walking {
+	animation: walk 0.5s steps(10,start) infinite;
+}
+.character.left{
+	background-image: url(./assets/image/game/seq-velho.png);
+	background-position: 0px;
+}
+
+@keyframes walk {
+	from {background-position: 0px 0px;}
+	to {background-position:1750px 0px}
+}
+
+.road {overflow: hidden; position: fixed; height: 100vh; width: 4360px; color:#fff;}
+.road > div {width: 1024px;}
+.container {float:left; height: 100vh; line-height:100vh; text-align:center; width: 1024px; position:relative; font-size: 70px;}
+.road {overflow: hidden; position: fixed; height: 100vh; width: 4360px;}
+.road > div {width: 1024px;}
+.container {float:left; height: 100vh; line-height:100vh; text-align:center; width: 1024px; position:relative; font-size: 70px;}
+
+.road1 {background-color: #8f0835 ;}
+
+.road2 {background-color: #f8bbd0  ;
+    background-image: url(./assets/image/game/bg-crianca.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.road3 {background-color: #f48fb1 ;
+    background-image: url(./assets/image/game/bg-adolescente.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.road4 {background-color: #f06292 ;
+    background-image: url(./assets/image/game/bg-adulto.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.road5 {background-color: #fce4ec ;
+    background-image: url(./assets/image/game/bg-velho.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+</style>
+  
+    <div class="top">0</div>
+
+    <div class="character"></div>
+    <div class="road">
+      <div class="container road1">START</div>
+      <div class="container road2"></div>
+      <div class="container road3"></div>
+      <div class="container road4"></div>
+      <div class="container road5"></div>
+    </div>
+
+  <script src="./assets/js/jquery-1.12.4.min.js"></script>
+
+    <script>
+    var lastScrollTop = 0;				//Atribuir a rolagem variável no último estado
+    
+    var roadLength = $(".road").width();	//Valor horizontal completo : 15000px
+    //alert(roadLength);
+
+    $("body").css("height",roadLength);
+
+    $(window).scroll(function(){
+        var wWidth = $(window).width();			//O valor horizontal da tela atual
+        var wHeight = $(window).height();		//Valor vertical na tela atual
+        var scrollTop = $(window).scrollTop(); 		//Valor de rolagem na tela atual
+        var dHeight = $("body").height() - wHeight;		//Valor total do retrato - o valor do retrato da tela atual
+        var wRoad = roadLength - wWidth;		//Valor horizontal completo - o valor horizontal da tela atual
+        var step = wRoad/dHeight;				// Valor horizontal completo / valor completo do retrato
+        var goLeft = scrollTop * step;		
+        
+        $(".road").css({ "transform":"translateX(-"+ goLeft +"px)" });
+        
+        clearTimeout($.data(this,"scrollCheck"));
+        
+        $.data(this, "scrollCheck", setTimeout(function(){
+        $(".character").removeClass("walking");
+        },100));
+        
+        if(scrollTop > lastScrollTop){
+        $(".character").removeClass("left");
+        $(".character").addClass("walking");
+        }else {
+        $(".character").addClass("left");
+        $(".character").addClass("walking");
+        }
+        
+        lastScrollTop = scrollTop;
+        
+        $(".top").text(scrollTop);
+        
+        if(scrollTop > 100){
+        $(".road1").addClass("show");
+        }
+        
+        $(document).keydown(function(){
+        if(e.width == 39){
+            var scrollTop = $(document).scrollTop();
+            $(window).scrollTop(scrollTop+50);
+        }
+        if(e.width == 37){
+            var scrollTop = $(document).scrollTop();
+            $(window).scrollTop(scrollTop-50);
+        }
+        });
+        
+    });
+    </script>
+
+
+</body>
+
+</html>
